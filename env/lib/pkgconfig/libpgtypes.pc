@@ -1,0 +1,9 @@
+Name: libpgtypes
+Description: PostgreSQL libpgtypes library
+Url: http://www.postgresql.org/
+Version: 12.17
+Requires: 
+Requires.private: 
+Cflags: -I/Users/azw/Documents/ml-playground/cust-segment/env/include
+Libs: -L/Users/azw/Documents/ml-playground/cust-segment/env/lib -lpgtypes
+Libs.private: -L/Users/azw/Documents/ml-playground/cust-segment/env/lib -lpgcommon -lpgport -lm
